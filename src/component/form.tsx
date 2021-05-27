@@ -87,7 +87,7 @@ class formdata  extends React.Component<formProps,  formState> {
                     <label>Add New Colour</label>
                     <input id="colourcode"  type="text" className="form-control"></input>
                     
-                    
+                    {/* <input id="colourcode1"  type="text" className="form-control"></input> */}
                 </div>
             </form>
             <button type="submit" onClick={this.submitclick} className="btn btn-primary btn-block" >Add</button>
